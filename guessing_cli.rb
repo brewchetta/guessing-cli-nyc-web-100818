@@ -8,5 +8,4 @@ def run_guessing_game
     break if input == "exit"
     puts "Sorry, it was #{number}! Guess again or type 'exit'" if input != number
   end
-  
 end
