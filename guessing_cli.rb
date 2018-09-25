@@ -8,6 +8,6 @@ def run_guessing_game
     break if input.downcase == "exit"
     puts "Sorry, it was #{number}! Guess again or type 'exit'" if input != number
   end
-  puts "Congratulations!" if input == number
+  puts "You guessed the correct number!" if input == number
   puts "Goodbye!"
 end
