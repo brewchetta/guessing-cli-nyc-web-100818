@@ -6,7 +6,7 @@ def run_guessing_game
     puts "Please guess a number!"
     input = gets.chomp
     break if input.downcase == "exit"
-    puts "Sorry, it was #{number}! Guess again or type 'exit'" if input != number
+    puts "The computer guessed #{number}." if input != number
   end
   puts "You guessed the correct number!" if input == number
   puts "Goodbye!"
