@@ -1,5 +1,5 @@
 def run_guessing_game
-  number = ""
+  number = "1"
   input = ""
   while input != number
     number = rand(1..6).to_s
