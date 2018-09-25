@@ -11,3 +11,5 @@ def run_guessing_game
   puts "You guessed the correct number!" if input == number
   puts "Goodbye!"
 end
+
+run_guessing_game
