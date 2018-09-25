@@ -9,5 +9,5 @@ def run_guessing_game
     puts "Sorry, it was #{number}! Guess again or type 'exit'" if input != number
   end
   puts "Congratulations!" if input == number
-  puts ""
+  puts "Goodbye!" if input == "exit"
 end
