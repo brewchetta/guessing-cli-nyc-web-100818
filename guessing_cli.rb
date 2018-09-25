@@ -5,6 +5,8 @@ def run_guessing_game
     number = rand(1..10)
     puts "Please guess a number!"
     input = gets.chomp
-    puts "Sorry, guess again!" if input != number
+    break if input == "exit"
+    puts "Sorry, it was #{number}! Guess again or type 'exit'" if input != number
   end
+  
 end
